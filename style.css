@@ -1,0 +1,29 @@
+.Me
+{
+    margin-top: 150px;
+    margin-left: 600px;
+}
+.About
+{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+p#About
+{
+    height: 100px;
+    width: 1200px;
+    border: solid black 3px;
+    margin: 2px 2px 1px 2px;
+    padding: 10px;
+    border-color: black;
+    border-radius: 10px;
+}
+.Skills, .Interests, .Projects, .Contact
+{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+body
+{  
+    background-color: peru;
+}

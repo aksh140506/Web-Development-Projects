@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Page</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+  <h1 style="margin-left: 500px; margin-top: 50px;">WELCOME TO THE QUIZ</h1>
+  <div class="quiz-container" id="quiz">
+    <h2 id="question">Question text</h2>
+    <ul>
+      <li><button class="answer-btn" onclick="selectAnswer('a')">A. <span id="a_text"></span></button></li>
+      <li><button class="answer-btn" onclick="selectAnswer('b')">B. <span id="b_text"></span></button></li>
+      <li><button class="answer-btn" onclick="selectAnswer('c')">C. <span id="c_text"></span></button></li>
+      <li><button class="answer-btn" onclick="selectAnswer('d')">D. <span id="d_text"></span></button></li>
+    </ul>
+    <button id="next-btn" onclick="nextQuestion()">Next</button>
+  </div>
+
+  <script src="script1.js"></script>
+</body>
+</html>

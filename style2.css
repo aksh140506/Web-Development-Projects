@@ -1,0 +1,37 @@
+.Main
+{
+  width: 1000px;
+  background: blueviolet;
+  margin: 50px 10px 10px 150px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.Form
+{
+  margin-bottom: 50px;
+}
+input, textarea
+{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 1px 30px 1px;
+  box-sizing: border-box;
+}
+button
+{
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.resume-section
+{
+  border-top: 10px solid #ddd;
+  padding-top: 50px;
+}
+body
+{
+  background-color: peru;
+}

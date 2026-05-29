@@ -1,0 +1,61 @@
+.Welcome
+{
+    height: 100px;
+    width: 1200px;
+    border: solid black 3px;
+    margin: 0% 0% 0% 0%;
+    padding: 150px;
+    border-color: white;
+    border-radius: 10px;
+    word-spacing: 80px;
+    background-color: aqua;
+}
+.About
+{
+    background-color: peru;
+}
+#Text
+{
+    height: 100px;
+    width: 1000px;
+    border: solid black 3px;
+    margin: 10px 10px 10px 50px;
+    padding: 10px;
+    border-color: black;
+    border-radius: 10px;
+}
+.Message
+{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.Details, .Details3
+{
+    display: flex;
+}
+.Details1, .Details2, .Details4, .Details5
+{
+    height: 200px;
+    width: 250px;
+    border: solid black 3px;
+    margin: 50px 50px 50px 250px;
+    padding: 10px;
+    border-color: black;
+    border-radius: 10px;
+}
+.Button1, .Button2, .Button4, .Button5
+{
+    height: 50px;
+    width: 50px;
+    border: solid black 3px;
+    margin: 50px 50px 50px 50px;
+    padding: 10px;
+    border-color: black;
+    border-radius: 10px;
+    display: inline;
+    background-color:rgb(91, 118, 255);
+}
+body
+{
+    background-color: grey;
+}
